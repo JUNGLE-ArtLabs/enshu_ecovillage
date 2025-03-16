@@ -7,6 +7,7 @@ export default function About() {
 
     return (
       <div className="about-container">
+        <h1>遠州エコビレッジ</h1>
         <h2>遠州エコビレッジに参加しませんか？</h2>
         <p>私は静岡県浜松市でパーマカルチャーと自然農とWEB3の融合で天然自然の循環の中で生活するエコビレッジを作ることを目指しています。
            いずれ土地を手に入れ家をセルフビルドして自然農で作物を作りDIYで作れるものは作っていくエコビレッジを作っていきたいと思っています。
@@ -28,8 +29,6 @@ export default function About() {
           className="discord-button">
             Discordに参加
           </a>
-        <br />
-        <Link to="/" className="about-button">←戻る</Link>
       </div>
     );
   }

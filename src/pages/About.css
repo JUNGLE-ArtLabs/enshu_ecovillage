@@ -13,6 +13,10 @@
 }
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 2.7rem; /* 小さめに調整 */
+    text-shadow: 2px 2px 0px yellow; /* スマホ用に影も小さく */
+  }
   h2 {
     font-size: 2rem !important; /* タイトルを小さく */
   }
@@ -22,11 +26,6 @@
   .discord-button {
     font-size: 0.9rem !important; /* ボタンの文字サイズを調整 */
     padding: 8px 16px !important; /* ボタンの大きさを調整 */
-  }
-  .about-button {
-    font-size: 1.2rem !important; /* ボタン文字のサイズ調整 */
-    width: 60px !important; /* ボタンの幅を調整 */
-    height: 60px !important; /* ボタンの高さを調整 */
   }
 }
 
@@ -43,28 +42,14 @@
   transition: background-color 0.3s ease;
 }
 
-.about-button {
-  background-color: gray;
-  color: black;
-  padding: 10px 20px;
-  border-radius: 50%;  /* 丸くする */
-  width: 90px;         /* 幅を指定 */
-  height: 90px;        /* 高さを指定 */
-  display: flex;       /* テキストを中央配置 */
-  align-items: center; 
-  justify-content: center;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.2s ease-in-out;
-  font-size: 1.7rem;
+h1 {
+  font-size: 9rem;
   font-family: 'Zen Antique', serif;
+  color: black;
+  text-shadow: 4px 4px 0px yellow;
   margin-bottom: 10px;
+  word-break: break-word;
 }
-
-.about-button:hover {
-  background-color: limegreen;
-}
-
 
 h2 {
   font-size: 4rem;
