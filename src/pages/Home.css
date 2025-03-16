@@ -23,7 +23,7 @@ h1 {
 /* スマホ対応 */
 @media (max-width: 768px) {
   h1 {
-    font-size: 3rem; /* 小さめに調整 */
+    font-size: 2.7rem; /* 小さめに調整 */
     text-shadow: 2px 2px 0px yellow; /* スマホ用に影も小さく */
   }
 
