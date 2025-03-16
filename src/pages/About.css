@@ -14,10 +14,10 @@
 
 /* スマホ向けフォントサイズ調整 */
 @media (max-width: 768px) {
-  .about-title {
+  h2 {
     font-size: 1.8rem; /* タイトルを小さく */
   }
-  .about-text {
+  p {
     font-size: 1rem; /* 説明文を小さく */
   }
   .discord-button {

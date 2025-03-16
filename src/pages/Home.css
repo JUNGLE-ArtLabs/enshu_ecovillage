@@ -23,14 +23,14 @@ h1 {
 /* スマホ対応 */
 @media (max-width: 768px) {
   h1 {
-    font-size: 3rem; /* 小さめに調整 */
+    font-size: 2rem; /* 小さめに調整 */
     text-shadow: 2px 2px 0px yellow; /* スマホ用に影も小さく */
   }
 
   .button {
-    width: 60px;   /* ボタンを小さく */
-    height: 60px;
-    font-size: 1.5rem;
+    width: 45px;   /* ボタンを小さく */
+    height: 45px;
+    font-size: 0.8rem;
   }
 }
 
