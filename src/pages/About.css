@@ -12,17 +12,21 @@
   padding-top: 50px; /* 上部に余白を追加 */
 }
 
-/* スマホ向けフォントサイズ調整 */
 @media (max-width: 768px) {
   h2 {
-    font-size: 1rem; /* タイトルを小さく */
+    font-size: 2rem !important; /* タイトルを小さく */
   }
   p {
-    font-size: 0.7rem; /* 説明文を小さく */
+    font-size: 1rem !important; /* 説明文を小さく */
   }
   .discord-button {
-    font-size: 0.9rem; /* ボタンの文字サイズを調整 */
-    padding: 8px 16px; /* ボタンの大きさを調整 */
+    font-size: 0.9rem !important; /* ボタンの文字サイズを調整 */
+    padding: 8px 16px !important; /* ボタンの大きさを調整 */
+  }
+  .about-button {
+    font-size: 1.2rem !important; /* ボタン文字のサイズ調整 */
+    width: 60px !important; /* ボタンの幅を調整 */
+    height: 60px !important; /* ボタンの高さを調整 */
   }
 }
 
