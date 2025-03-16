@@ -17,6 +17,21 @@ h1 {
   color: black;
   text-shadow: 4px 4px 0px yellow;
   margin-bottom: 10px;
+  word-break: break-word;
+}
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem; /* 小さめに調整 */
+    text-shadow: 2px 2px 0px yellow; /* スマホ用に影も小さく */
+  }
+
+  .button {
+    width: 60px;   /* ボタンを小さく */
+    height: 60px;
+    font-size: 1.5rem;
+  }
 }
 
 .button {
