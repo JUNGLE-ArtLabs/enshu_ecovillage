@@ -15,10 +15,10 @@
 /* スマホ向けフォントサイズ調整 */
 @media (max-width: 768px) {
   h2 {
-    font-size: 1.8rem; /* タイトルを小さく */
+    font-size: 1rem; /* タイトルを小さく */
   }
   p {
-    font-size: 1rem; /* 説明文を小さく */
+    font-size: 0.7rem; /* 説明文を小さく */
   }
   .discord-button {
     font-size: 0.9rem; /* ボタンの文字サイズを調整 */
