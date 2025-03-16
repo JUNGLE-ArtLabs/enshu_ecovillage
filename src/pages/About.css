@@ -63,3 +63,24 @@ p {
   font-family: 'Zen Antique', serif;
   margin-bottom: 10px;
 }
+
+p:first-of-type {
+  text-align: left; /* 左寄せ */
+  width: 100%; /* コンテナ幅いっぱいに広げる */
+  max-width: 800px; /* 調整しやすいように最大幅を設定（任意） */
+  margin: 0 auto 10px 0; /* 左側に寄せるために `auto` を使わない */
+}
+
+p:nth-of-type(2) {
+  text-align: center; /* 中央寄せ */
+  width: 100%; /* コンテナ幅いっぱい */
+  max-width: 800px; /* 最大幅を設定 */
+  margin: 0 auto 10px auto; /* 自動で中央寄せ */
+}
+
+p:nth-of-type(3) {
+  text-align: center; /* 中央寄せ */
+  width: 100%; /* コンテナ幅いっぱい */
+  max-width: 800px; /* 最大幅を設定 */
+  margin: 0 auto 10px auto; /* 自動で中央寄せ */
+}
