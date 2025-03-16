@@ -15,8 +15,8 @@
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2.7rem; /* 小さめに調整 */
-    text-shadow: 2px 2px 0px yellow; /* スマホ用に影も小さく */
+    font-size: 2.7rem !important; /* 小さめに調整 */
+    text-shadow: 2px 2px 0px yellow !important; /* スマホ用に影も小さく */
   }
   h2 {
     font-size: 2rem !important; /* タイトルを小さく */
