@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 9rem;
+  font-family: 'Zen Antique', serif;
+  color: black;
+  text-shadow: 4px 4px 0px yellow;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: green;
+  color: red;
+  padding: 10px 20px;
+  border-radius: 50%;  /* 丸くする */
+  width: 80px;         /* 幅を指定 */
+  height: 80px;        /* 高さを指定 */
+  display: flex;       /* テキストを中央配置 */
+  align-items: center; 
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  font-size: 2rem;
+  font-family: 'Zen Antique', serif;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: limegreen;
+}

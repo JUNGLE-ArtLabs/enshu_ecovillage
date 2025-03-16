@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* 上寄せ配置 */
+  height: 100vh;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 50px; /* 上部に余白を追加 */
+}
+
+.discord-button {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.about-button {
+  background-color: gray;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 50%;  /* 丸くする */
+  width: 90px;         /* 幅を指定 */
+  height: 90px;        /* 高さを指定 */
+  display: flex;       /* テキストを中央配置 */
+  align-items: center; 
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.7rem;
+  font-family: 'Zen Antique', serif;
+  margin-bottom: 10px;
+}
+
+.about-button:hover {
+  background-color: limegreen;
+}
+
+
+h2 {
+  font-size: 4rem;
+  font-family: 'Zen Antique', serif;
+  margin-bottom: 10px;
+}
+
+p {
+  color: black;
+  font-size: 2rem;
+  font-family: 'Zen Antique', serif;
+  margin-bottom: 10px;
+}
