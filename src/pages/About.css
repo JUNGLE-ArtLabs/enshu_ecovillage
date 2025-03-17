@@ -16,7 +16,7 @@
 @media (max-width: 768px) {
   h1 {
     font-size: 2.7rem !important; /* 小さめに調整 */
-    text-shadow: 2px 2px 0px yellow !important; /* スマホ用に影も小さく */
+    text-shadow: 2px 2px 0px gray !important; /* スマホ用に影も小さく */
   }
   h2 {
     font-size: 2rem !important; /* タイトルを小さく */
@@ -47,7 +47,7 @@ h1 {
   font-size: 9rem;
   font-family: 'Zen Antique', serif;
   color: black;
-  text-shadow: 4px 4px 0px yellow;
+  text-shadow: 4px 4px 0px gray;
   margin-bottom: 10px;
   word-break: break-word;
 }
