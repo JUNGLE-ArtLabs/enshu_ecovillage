@@ -3,7 +3,7 @@ import { QRCodeCanvas } from "qrcode.react";
 import "./About.css";
 
 export default function About() {
-    const discordInvite = "https://discord.gg/C9ae763D"
+    const discordInvite = "https://discord.gg/CNQPqRG3PC"
 
     return (
       <div className="about-container">
