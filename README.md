@@ -8,7 +8,7 @@ Layer1 — 基本憲章
 
 Layer2 — 意思決定プロセス
 
-提案（Proposal）作成
+提案作成
 
 AIレビュー
 
