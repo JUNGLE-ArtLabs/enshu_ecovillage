@@ -12,6 +12,5 @@
 
 ![配置構想2](../images/AFFEB06F-A849-4C4F-9732-249ECFF5C9FB.png)
 
-![配置構想3](../images/47d4ff4e-bcb3-4e9f-ade1-701c5210b93a.png)
 
 ![配置構想4](../images/d06d4965-b5c2-4bb8-81a5-4e87380d54ee.png)
