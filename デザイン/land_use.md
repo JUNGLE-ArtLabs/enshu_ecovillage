@@ -11,6 +11,3 @@
 ![配置構想1](../images/CBF8685B-D843-42AB-BC9F-3AABC36E9706.png)
 
 ![配置構想2](../images/AFFEB06F-A849-4C4F-9732-249ECFF5C9FB.png)
-
-
-![配置構想4](../images/d06d4965-b5c2-4bb8-81a5-4e87380d54ee.png)
